@@ -40,3 +40,17 @@ product = (num_one * num_two)
 division = (num_one / num_two)
 remainder = (num_two / num_one)
 exp = (num_one ** num_two)
+floor_division = (num_one // num_two)
+
+radius = 30
+area_of_circle = ((3.14) * (radius ** 2))
+circum_of_circle = ((3.14) * (radius * 2))
+
+user_radius = int(input("What is the radius?"))
+area_of_user_circle = ((3.14) * (user_radius ** 2))
+print(area_of_user_circle)
+
+user_first_name = input("What is your first name?")
+user_last_name = input("What is your last name?")
+user_country = input("What is your country?")
+user_age = int(input("What is your age?"))
